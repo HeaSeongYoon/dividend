@@ -15,6 +15,7 @@ public class YahooFinanceScraper {
     private String url = "https://finance.yahoo.com/quote/COKE/history?period1=99100800&period2=1690761600&interval=1mo&filter=history&frequency=1mo&includeAdjustedClose=true";
 
 
+
     public ScrapedResult scrap(Company company) {
 
         try {
