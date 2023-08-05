@@ -55,6 +55,6 @@ public class FinanceService {
                                                     .collect(Collectors.toList());
 
         return new ScrapedResult(new Company(company.getTicker(), company.getName()),
-                null);
+                dividends);
     }
 }
