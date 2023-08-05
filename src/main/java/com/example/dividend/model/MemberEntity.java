@@ -28,6 +28,7 @@ public class MemberEntity implements UserDetails {
 
     private String password;
 
+
     @ElementCollection(fetch = FetchType.EAGER)
     private List<String> roles;
 
